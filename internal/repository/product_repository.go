@@ -8,8 +8,8 @@ import (
 	"fmt"
 
 	"github.com/MidnightHelix/synapsis/domain"
+	"github.com/go-redis/redis/v9"
 
-	"github.com/go-redis/redis/v8"
 	"gorm.io/gorm"
 )
 

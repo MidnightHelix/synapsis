@@ -1,8 +1,6 @@
-// service/product_service.go
+package service
 
-package usecase
-
-import "your_project/domain"
+import "github.com/MidnightHelix/synapsis/domain"
 
 type ProductService interface {
 	GetProductsByCategory(category string) ([]*domain.Product, error)

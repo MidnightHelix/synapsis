@@ -2,7 +2,8 @@ package handler
 
 import (
 	"net/http"
-	"your_project/service"
+
+	"github.com/MidnightHelix/synapsis/service"
 
 	"github.com/gin-gonic/gin"
 )

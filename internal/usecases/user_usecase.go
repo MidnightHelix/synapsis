@@ -1,4 +1,4 @@
-package usecase
+package service
 
 type UserService interface {
 	Register(username, password string) error

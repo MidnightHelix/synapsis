@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/domain"
+	"github.com/MidnightHelix/synapsis/domain"
 
 	"github.com/go-redis/redis"
 	"gorm.io/gorm"

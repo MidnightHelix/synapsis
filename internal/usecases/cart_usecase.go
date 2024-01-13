@@ -1,6 +1,6 @@
-package usecase
+package service
 
-import "your_project/domain"
+import "github.com/MidnightHelix/synapsis/domain"
 
 type CartService interface {
 	AddToCart(userID, productID uint, quantity int) error

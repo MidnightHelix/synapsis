@@ -3,12 +3,12 @@
 package main
 
 import (
-	"github.com/repository"
+	"github.com/MidnightHelix/synapsis/repository"
 
-	"github.com/handler"
+	"github.com/MidnightHelix/synapsis/handler"
 
-	"github.com/domain"
-	"github.com/service"
+	"github.com/MidnightHelix/synapsis/domain"
+	"github.com/MidnightHelix/synapsis/service"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis"
